@@ -23,7 +23,7 @@ var stimuliList = shuffle([
 
 ["control", "theater", "Jasper", "In my town, there is a recreation center and an art gallery, but no theater.", ["NA", "NA", "NA", "NA"], ["", "", "", ""], ["false", "true"], ["The mayor wants to convert the theater into a museum.", "The mayor wants to convert the art gallery into a museum."], ["", "", "", ""]],
 
-["control", "theater", "Nancy", "We have a physics teacher and a chemistry teacher, but no math teacher at school.", ["NA", "NA", "NA", "NA"], ["", "", "", ""], ["true", "false"], ["The physics teacher is very bright.", "The math teacher is very bright."], ["", "", "", ""]],
+["control", "teacher", "Nancy", "We have a physics teacher and a chemistry teacher, but no math teacher at school.", ["NA", "NA", "NA", "NA"], ["", "", "", ""], ["true", "false"], ["The physics teacher is very bright.", "The math teacher is very bright."], ["", "", "", ""]],
 
 ["control", "offer", "Augustus", "The company offered Sally a job but she turned it down.", ["NA", "NA", "NA", "NA"], ["", "", "", ""], ["false", "true"], ["Two weeks later, she regretted having accepted the offer.", "Two weeks later, she regretted not having accepted the offer."], ["", "", "", ""]]
 
