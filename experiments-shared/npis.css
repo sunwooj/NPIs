@@ -38,8 +38,37 @@ label {
     display: block;
 }
 
-table, th, td {
-  text-align: center;
+table {
+    width: 480px;
+}
+
+th {
+    width: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    width: 20px;
+    text-align: center;
+}
+
+.tab { 
+    margin-left: 40px; 
+}
+
+.wideTable {
+    width: 640px;
+}
+
+.checkboxTable {
+    text-align: center;
+    width: 640px;
+}
+
+.checktd {
+    width: 48px;
+    text-align: left;
 }
 
 .responseText{ 
@@ -88,7 +117,7 @@ table, th, td {
 
 .stim-text {
   width: 440px;
-  text-align: justify;
+  text-align: center;
   font-size: 110%; 
   font-weight: bold; 
   margin: 0 auto;
