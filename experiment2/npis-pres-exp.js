@@ -149,6 +149,7 @@ $(document).ready(function() {
         var starttime = new Date();
         var starttimenum = Math.round(new Date().getTime() / 1000);
         data.starttime = starttime;
+        data.starttimenum = starttimenum;
         stepExperiment();
     });
 });
@@ -189,7 +190,7 @@ function stepExperiment () {
 			if ($('.nat:checked').length > 0 && $('.age:checked').length > 0 && $('.gen:checked').length > 0 && $('.eth:checked').length > 0) {
             
             data.endtime = endtime;
-            data.elapsedtime = endtimenum - starttimenum;
+            data.endtimenum = endtimenum;
 
             data.nat = nat;
             data.age = age;
@@ -300,7 +301,7 @@ function stepExperiment () {
             $(".currentPres").html(presStim);
 
             $(".item_number").html(trialnum);
-            $(".item_number2").html(trialnum-6);
+            $(".item_number2").html(trialnum-12);
 
             $(".part_number").html(trialtype);
 
