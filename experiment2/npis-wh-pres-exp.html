@@ -5,11 +5,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-<!-- FOR MTURK -->
-<script type="text/javascript" src="https://sunwooj.github.io/experiments-shared/mmturkey.0.5.js"></script> 
-
 <!-- FOR PHP DATA GATHERING -->
-<!-- <script type="text/javascript" src="https://stanford.edu/~sunwooj/experiments/mmturkey-extension.js"></script>  -->
+<script type="text/javascript" src="https://sunwoojeong.com/experiments/experiments-shared/server-extension.js"></script> 
 
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
@@ -19,6 +16,7 @@
 <link rel="stylesheet" href="https://sunwooj.github.io/experiments-shared/sliders/jquery-ui.css"></link>
 
 <link href ="../experiments-shared/npis.css" rel="stylesheet" type="text/css"/>
+<!-- <link href="../npis.css" rel="stylesheet" type="text/css" /> -->
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -46,7 +44,7 @@ Thank you for participating in the experiment! Before you begin, please take a m
 LEGAL INFORMATION: <br>
 (Please scroll through the box and read the consent form before proceeding.)
 <br><br>
-We invite you to participate in a short research study on language production and comprehension. In this study, you will be asked to make a few judgments about English sentences. The study will take approximately INSERT minutes to complete. 
+We invite you to participate in a short research study on language production and comprehension. In this study, you will be asked to make a few judgments about English sentences. The study will take approximately 10 minutes to complete. 
 <br><br>
 There are no risks or benefits of any kind involved in this study. You will be paid for your participation at the posted rate.
 If you have read this form and have decided to participate in this experiment, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy will be maintained in all published and written data resulting from the study. You do not waive any legal rights or release Seoul National University and ILLC, its agents, or the investigators from liability for negligence. You may print this form for your records.
@@ -73,7 +71,7 @@ If you have any questions, please contact one of the investigators at sunwooj@sn
     <div>
 
 <br><br>
-<p class='block-text'>The experiment consists of two parts. In the first part of this experiment, you will make judgments on the naturalness of 12 (CHANGE LATER AFTER) English sentences. In the second part of the experiment, you will answer a simple question about how you interpreted 8 (CHANGE LATER) of the English sentences you saw earlier. There are a total of 20 trials (CHANGE LATER). </p>
+<p class='block-text'>The experiment consists of two parts. In the first part of this experiment, you will make judgments on the naturalness of 12 English sentences. In the second part of the experiment, you will answer a simple question about how you interpreted 12 English sentences, some of which you saw in the first part of the experiment. There are a total of 24 trials. </p>
 
 <p class='block-text'> <strong> This is a psychology experiment requiring undivided attention on your part. Please devote your attention solely to this task and read carefully.</strong> </p>
 
@@ -95,7 +93,7 @@ If you have any questions, please contact one of the investigators at sunwooj@sn
 
 
 
-<p><span style="font-weight: bold; color: #8C1515;"> Trial <span class="item_number">{{}}</span> out of total INSERT trials</span></p>
+<p><span style="font-weight: bold; color: #8C1515;"> Trial <span class="item_number">{{}}</span> out of 24 (total)</span></p>
 
 <!-- Q1: Naturalness rating -->
 <form id='responseForm1'>
@@ -179,7 +177,7 @@ Please rate how natural the sentence below sounds (from 1 to 7).
 <form id='responseForm2'>
 
 <p class='block-text2'>
-Please consider again the sentence below.
+Please consider (again) the sentence below.
 </p>
 
 <p class='stim-text'>
@@ -191,7 +189,7 @@ Please consider again the sentence below.
 
 
 <p class='block-text2'>
-    How likely is it that the speaker of the sentence
+    How likely is it that the speaker of this sentence
     <!-- <span class='currentName'>{{}}</span>  -->
     thinks as follows? Please rate its likelihood (from 1 to 7).
 </p>
@@ -256,7 +254,7 @@ Please consider again the sentence below.
 <button type='button' id='continue'>Continue</button>
 
 
-<p><span style="font-weight: bold; color: #8C1515;"> <span class="part_number">{{}}</span>: trial <span class="item_number2">{{}}</span> out of FILL LATER</span></p>
+<p><span style="font-weight: bold; color: #8C1515;"> <span class="part_number">{{}}</span>: trial <span class="item_number2">{{}}</span> out of 12</span></p>
 
         </div>
     </div>
@@ -366,7 +364,7 @@ Please list any other languages that you speak fluently.
 
 
 <div class='slide' id='finish'>
-<p>You're done with the experiment. Thanks so much for participating!</p>
+<p>You are done and will be redirected to Prolific. Thanks so much for participating!</p>
 </div>
 
 </body>
